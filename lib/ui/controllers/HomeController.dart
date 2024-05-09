@@ -5,9 +5,9 @@ class HomeController extends GetxController {
   static HomeController get to => Get.find();
 
   final todoList = <TodoItem>[
-    TodoItem(importance: 0, checked: false, title: "none"),
-    TodoItem(importance: 1, checked: false, title: "low"),
-    TodoItem(importance: 2, checked: false, title: "medium"),
-    TodoItem(importance: 3, checked: false, title: "high"),
+    TodoItem(importance: 0, checked: false, title: "importance none"),
+    TodoItem(importance: 1, checked: false, title: "importance low"),
+    TodoItem(importance: 2, checked: false, title: "importance medium"),
+    TodoItem(importance: 3, checked: false, title: "importance high"),
   ].obs;
 }
